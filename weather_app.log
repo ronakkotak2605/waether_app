@@ -1,0 +1,9 @@
+2024-12-07 18:06:00,364 - __main__ - INFO - Logger configured successfully
+2024-12-07 18:14:08,232 - __main__ - INFO - Weather app started
+2024-12-07 18:14:08,233 - config_reader - INFO - Config file loaded: C:\Users\saach\IdeaProjects\weather_app\config.cfg
+2024-12-07 18:14:08,233 - config_reader - DEBUG - Retrieved [API] base_url: https://api.openweathermap.org/data/2.5/weather
+2024-12-07 18:14:08,234 - config_reader - DEBUG - Retrieved [API] api_key: your_api_key_here
+2024-12-07 18:14:13,858 - modules.api_handler - INFO - Fetching weather data for city: London
+2024-12-07 18:14:13,862 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2024-12-07 18:14:14,378 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&appid=your_api_key_here HTTP/11" 401 108
+2024-12-07 18:14:14,379 - modules.api_handler - ERROR - Error during API call: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
